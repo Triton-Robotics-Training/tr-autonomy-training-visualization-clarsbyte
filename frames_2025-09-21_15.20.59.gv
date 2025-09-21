@@ -1,0 +1,8 @@
+digraph G {
+"map" -> "panel_3"[label=" Broadcaster: default_authority\nAverage rate: 8.974\nBuffer length: 0.557\nMost recent transform: 1758493254.879348\nOldest transform: 1758493254.322214\n"];
+"map" -> "camera_frame"[label=" Broadcaster: default_authority\nAverage rate: 17.597\nBuffer length: 5.001\nMost recent transform: 1758493259.358284\nOldest transform: 1758493254.357566\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1758493259.363705"[ shape=plaintext ] ;
+}->"map";
+}
